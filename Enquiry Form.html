@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form>
+    <fieldset> <legend><h3> Enquiry Form</h3></legend>
+        
+        Name: 
+        <input type="text" name="name" value=""placeholder="Please enter your name"/> <br> <br> 
+
+        Color:
+        <input type="color" name="color"/>
+
+        Address: <textarea></textarea> <br><br>
+        Gender:
+        <input type="radio" value="M" name="Gender"/> Male
+        <input type="radio" value="F" name="Gender"/> Female
+        <input type="radio" value="F" name="Gender"/> Other
+        <input type="radio" value="M" name="Gender"/> Prefer Not To Say <br><br> 
+        Contact No: <input type="number"/><br><br>
+        Email Id: <input type="email"/><br><br>
+        Password: <input type="password" name="password"/><br><br>
+        Confirm Password: <input type="password" name="password"/><br><br>
+        Age: <input type="number" name="age"/><br><br>
+        ----not hovering------ <br> <br>
+        Country:
+        <select>
+            <option> Please select a Country</option>
+            <optgroup label="ASIA">
+                <option value="India"> India</option>
+                <option value="Shri Lanka"> Shri Lanka</option>
+            </optgroup>
+            <optgroup label="Europe">
+                <option value="Germany"> Germany</option>
+                <option value="France"> France</option>
+            </optgroup>
+        </select> <br> <br>
+
+        Your Hobbies:
+        <input type="checkbox" name="checkbox []"/> Dancing  
+        <input type="checkbox" name="checkbox []"/> Singing  
+        <input type="checkbox" name="checkbox []"/> Drawing  <br> <br>
+        Image:
+        <input type="file" name="Image"/> <br> <br>
+        Visiting Date
+        <input type="date" name="date"/> <br> <br>
+        Date Time:
+        <input type="datetime-local" name="time"/> <br> <br>
+        Time:
+        <input type="time" name="time"/> <br> <br>
+        Secret:
+        <input type="hidden" name="select"/>
+
+
+        <br> <br>
+        <input type="submit"/>
+        <input type="reset"/>
+        </fieldset>
+
+    </form>
+</body>
+</html>
